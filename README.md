@@ -43,7 +43,7 @@ services:
     tty: true
 ```
 ※ stdin_open:コンテナの標準入力をオープンしたままにする
-※ stdin_open:コンテナの標準入力をオープンしたままにする
+※ tty:コンテナに疑似TTYを割り当てる
 
 $ docker-compose build
 $ docker-compose up -d
